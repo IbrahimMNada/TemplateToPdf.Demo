@@ -30,6 +30,26 @@ like the Image Bellow:
       
 ![image](https://user-images.githubusercontent.com/28313687/139026489-84c8afb5-368f-47b7-9c0a-7748623c44e2.png)
 
+      
+# Usage 
+
+This package is so simple to use : 
+All you have to use is to create a Url and let the browser redirect to it. 
+You can use b builder from the Package that will help you alot 
+
+   var pdfUrl = new PdfUrlBuilder().UsingGetByIdMethod(<yourNodeId>).WithTemplateAlias("<yourTemplateAlias>").AddPdfFileName("<pdf file name>").Url();
+                  this line will generate a url to be imbeded in any page or any where ! 
+      
+      ![Untitled](https://user-images.githubusercontent.com/28313687/139030282-93dd9c3b-7c48-4572-a8d5-e15131b3a852.png)
+
+And this is how the Template looks like : 
+
+![Untitled](https://user-images.githubusercontent.com/28313687/139030544-ae4e468a-791e-4321-b6cb-29ece553e0c4.png)
+
+and @model IPublishedContent to bind the page to a loose model 
+
+Thats it
+
 
 # Exmaple:
 Using Umbraco Starter-kit, i added a button on the buttom of each one of those cool people to download thier resumes: 
