@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateToPdf.Demo", "TemplateToPdf.Demo\TemplateToPdf.Demo.csproj", "{3E779ADD-0F87-46B8-9357-042BA1884E34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E779ADD-0F87-46B8-9357-042BA1884E34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E779ADD-0F87-46B8-9357-042BA1884E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E779ADD-0F87-46B8-9357-042BA1884E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E779ADD-0F87-46B8-9357-042BA1884E34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {208E96C2-FF2B-4C1C-BD14-66FFAE1B3212}
+	EndGlobalSection
+EndGlobal
