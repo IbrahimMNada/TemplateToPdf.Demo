@@ -4,6 +4,33 @@ This is a demo applciation for Umbraco Template to Html
 # What is this package for? 
 This package is desgined to convert Umbraco Cotnent into Pdf while you have a full control of what the pdf shall look like using confgration from Umbraco back office! 
 
+# Getting Started 
+
+1.	2.1 First Thing First: 
+      Download the package Using: 
+>dotnet add package UmbracoTemplateToPdf --version 1.0.5
+
+2.2 Adding The Core file
+you need to add a file called: wkhtmltopdf.exe this file is 
+responsible for converting the Html inside of the template to Pdf.
+you can download it from here : 
+
+https://github.com/uppercuut/TemplateToPdf.Demo/tree/master/TemplateToPdf.Demo/wwwroot/TemplateToPdf
+
+Life location must be: 
+“<YourApplicationName>/ wwwroot/TemplateToPdf/wkhtmltopdf.exe” 
+if the folder “TemplateToPdf” is not there create one.
+
+2.3 Configuring the Startup.cs
+add this line to the startup file and you are ready to go!
+ 
+**services.AddTemplateToPdf(_env);**
+ 
+like the Image Bellow:
+      
+![image](https://user-images.githubusercontent.com/28313687/139026489-84c8afb5-368f-47b7-9c0a-7748623c44e2.png)
+
+
 # Exmaple:
 Using Umbraco Starter-kit, i added a button on the buttom of each one of those cool people to download thier resumes: 
 ![139023905-54d7e6db-5a46-41d6-96e1-b88a75369d71-min](https://user-images.githubusercontent.com/28313687/139027898-38f9929b-8aa7-4944-85ef-b0c5bc790bcd.png)
@@ -31,30 +58,5 @@ now to see the new pdf , All you have to do is refresh !!
 This is The Pretty much the TemplateToPdf Package 
 
 
-# Getting Started 
-
-1.	2.1 First Thing First: 
-      Download the package Using: 
->dotnet add package UmbracoTemplateToPdf --version 1.0.5
-
-2.2 Adding The Core file
-you need to add a file called: wkhtmltopdf.exe this file is 
-responsible for converting the Html inside of the template to Pdf.
-you can download it from here : 
-
-https://github.com/uppercuut/TemplateToPdf.Demo/tree/master/TemplateToPdf.Demo/wwwroot/TemplateToPdf
-
-Life location must be: 
-“<YourApplicationName>/ wwwroot/TemplateToPdf/wkhtmltopdf.exe” 
-if the folder “TemplateToPdf” is not there create one.
-
-2.3 Configuring the Startup.cs
-add this line to the startup file and you are ready to go!
- 
-**services.AddTemplateToPdf(_env);**
- 
-like the Image Bellow:
-      
-![image](https://user-images.githubusercontent.com/28313687/139026489-84c8afb5-368f-47b7-9c0a-7748623c44e2.png)
 
 
