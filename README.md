@@ -52,6 +52,8 @@ Thats it
 
 
 # Exmaple:
+
+let me give an exmaple of how this package works and one of its usage! (we will walk a scenario from A to Z)
 Using Umbraco Starter-kit, i added a button on the buttom of each one of those cool people to download thier resumes: 
 ![139023905-54d7e6db-5a46-41d6-96e1-b88a75369d71-min](https://user-images.githubusercontent.com/28313687/139027898-38f9929b-8aa7-4944-85ef-b0c5bc790bcd.png)
 
