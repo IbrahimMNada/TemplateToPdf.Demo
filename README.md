@@ -13,7 +13,7 @@ This package is desgined to convert Umbraco Cotnent into Pdf while you have a fu
 
 1.	2.1 First Thing First: 
       Download the package Using: 
->dotnet add package Our.Umbraco.TemplateToPdf --version 1.0.5
+>dotnet add package Our.Umbraco.TemplateToPdf
 
 2.2 Adding The Core file
 you need to add a file called: **wkhtmltopdf.exe** this file is 
