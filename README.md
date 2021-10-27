@@ -50,7 +50,9 @@ if the folder “TemplateToPdf” is not there create one.
 
 2.3 Configuring the Startup.cs
 add this line to the startup file and you are ready to go!
-services.AddTemplateToPdf(_env);
+ 
+**services.AddTemplateToPdf(_env);**
+ 
 like the Image Bellow:
       
 ![image](https://user-images.githubusercontent.com/28313687/139026489-84c8afb5-368f-47b7-9c0a-7748623c44e2.png)
