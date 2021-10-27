@@ -40,7 +40,7 @@ You can use b builder from the Package that will help you alot
    var pdfUrl = new PdfUrlBuilder().UsingGetByIdMethod(<yourNodeId>).WithTemplateAlias("<yourTemplateAlias>").AddPdfFileName("<pdf file name>").Url();
                   this line will generate a url to be imbeded in any page or any where ! 
       
-      ![Untitled](https://user-images.githubusercontent.com/28313687/139030282-93dd9c3b-7c48-4572-a8d5-e15131b3a852.png)
+![Untitled2](https://user-images.githubusercontent.com/28313687/139031016-9f48550f-ed5c-43b4-999f-0a80c312cbb4.png)
 
 And this is how the Template looks like : 
 
