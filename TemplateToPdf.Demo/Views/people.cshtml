@@ -30,7 +30,7 @@
             @foreach (Person person in Model.Children<Person>())
             {
 
-                var pdfUrl = new PdfUrlBuilder().UsingGetByIdMethod(person.Id).WithTemplateAlias("ResumeTemplate").AddPdfFileName(person.Name).WithMargins(0,0,0,0).Url();
+                var pdfUrl = new PdfUrlBuilder().UsingGetByIdMethod(person.Id).WithTemplateAlias("ResumeTemplate").AddPdfFileName(person.Name).WithMargins(4,4,4,4).Url();
 
 <div class="employee-grid__item">
     <div class="employee-grid__item__image" style="background-image: url('@person.Photo?.Url()')"></div>
