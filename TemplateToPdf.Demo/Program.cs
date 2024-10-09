@@ -1,20 +1,34 @@
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Builder;
+using Umbraco.Cms.Core.DependencyInjection;
+using Umbraco.Cms.Core.Services;
+using Umbraco.Extensions;
 
-namespace TemplateToPdf.Demo
-{
-    public class Program
+WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
+
+builder.CreateUmbracoBuilder()
+    .AddBackOffice()
+    .AddWebsite()
+    .AddComposers()
+    .Build();
+
+WebApplication app = builder.Build();
+
+await app.BootUmbracoAsync();
+
+
+builder.AddTemplateToPdf();
+
+
+app.UseUmbraco()
+    .WithMiddleware(u =>
     {
-        public static void Main(string[] args)
-            => CreateHostBuilder(args)
-                .Build()
-                .Run();
+        u.UseBackOffice();
+        u.UseWebsite();
+    })
+    .WithEndpoints(u =>
+    {
+        u.UseBackOfficeEndpoints();
+        u.UseWebsiteEndpoints();
+    });
 
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureLogging(x => x.ClearProviders())
-                .ConfigureWebHostDefaults(webBuilder => webBuilder.UseStartup<Startup>());
-    }
-}
+await app.RunAsync();
