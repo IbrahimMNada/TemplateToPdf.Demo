@@ -39,7 +39,7 @@
   ],
   "Tags": [],
   "Title": "",
-  "VersionDependencyMode": "",
+  "VersionDependencyMode": "SemVer",
   "VersionSpecificPackageIds": [
     {
       "UmbracoMajorVersion": 8,
