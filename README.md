@@ -33,11 +33,12 @@ if the folder “TemplateToPdf” is not there then create it.
 
 Add this line to the startup file and you are ready to go!
  
-**services.AddTemplateToPdf(_env);**
+**builder.AddTemplateToPdf();**
  
 like the image below:
       
-![image](https://user-images.githubusercontent.com/28313687/139026489-84c8afb5-368f-47b7-9c0a-7748623c44e2.png)
+![image](https://github.com/user-attachments/assets/a4297a59-53a7-45bf-8a03-e0d0b71c57b3)
+
 
       
 # Usage 
