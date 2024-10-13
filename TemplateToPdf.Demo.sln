@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31702.278
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35323.107
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateToPdf.Demo", "TemplateToPdf.Demo\TemplateToPdf.Demo.csproj", "{3E779ADD-0F87-46B8-9357-042BA1884E34}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateToPdf.Demo", "TemplateToPdf.Demo\TemplateToPdf.Demo.csproj", "{FAEB367D-406E-49F4-9D44-51712D634E04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3E779ADD-0F87-46B8-9357-042BA1884E34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3E779ADD-0F87-46B8-9357-042BA1884E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3E779ADD-0F87-46B8-9357-042BA1884E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3E779ADD-0F87-46B8-9357-042BA1884E34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAEB367D-406E-49F4-9D44-51712D634E04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAEB367D-406E-49F4-9D44-51712D634E04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAEB367D-406E-49F4-9D44-51712D634E04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAEB367D-406E-49F4-9D44-51712D634E04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
